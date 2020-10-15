@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float-l {
+  float: left;
+}
+
+.float-r {
+  float: right;
+}
+/* ------------ */
+
+/* header */
+.header-top {
+  height: 75px;
+  background: #f4f9fd;
+  border-bottom: 1px solid black;
+}
+
+.header-top-box {
+  position: relative;
+  height: 100%;
+}
+
+.header-top-left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.header-top-left ul li {
+  display: inline-block;
+  padding: 0px 20px 0px 0;
+  border-right: 1px solid black;
+}
+
+.header-top-left ul li:last-child {
+  border-right: 0;
+  padding-left: 20px;
+}
+
+.header-top-left ul li > a {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+.header-top-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.header-top-right .fas {
+  color: #01b1b1;
+}
+
+.header-top-right [type=button] {
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.header-top-right [name=login] {
+  color: #fd795d;
+  background-color: white;
+  border-style: none;
+  border: 1px solid #fd795d;
+}
+
+.header-top-right [name=signin] {
+  color: white;
+  background-color: #fd795d;
+  border-style: none;
+}
+
+
+/* /header */
