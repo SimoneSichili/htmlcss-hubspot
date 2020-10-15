@@ -94,7 +94,7 @@
 
 /* nav */
 nav {
-  background: lightgrey;
+  background: white;
   height: 75px;
 }
 
@@ -138,3 +138,45 @@ nav .logo img {
   transform: translateY(-50%);
 }
 /* /nav */
+
+/* jumbotron */
+.jumbotron {
+  position: relative;
+}
+
+.jumbotron img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.jumbotron-content {
+  position: relative;
+  width: 50%;
+  z-index: 2;
+  padding-top: 50px;
+}
+
+.jumbotron-content h1 {
+  font-size: 60px;
+  line-height: 1;
+  margin-bottom: 40px;
+}
+
+.jumbotron-content p.site-description {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.jumbotron-content [name=signin] {
+  color: white;
+  background-color: #fd795d;
+  border-radius: 5px;
+  border-style: none;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+/* /jumbotron */
