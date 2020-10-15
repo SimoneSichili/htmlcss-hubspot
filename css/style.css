@@ -26,7 +26,12 @@
 
 /* header-top */
 .header-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
   height: 75px;
+  width: 100%;
   background: #f4f9fd;
   border-bottom: 1px solid black;
 }
@@ -96,6 +101,8 @@
 nav {
   background: white;
   height: 75px;
+  width: 100%;
+  margin-top: 75px;
 }
 
 .nav-box {
