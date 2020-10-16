@@ -37,9 +37,37 @@ h1, h2, h3, h4, h5, h6 p {
   font-size: 24px;
 }
 
-.h3-uppercase {
+.h3-lowercase-hub {
+  font-size: 24px;
+  margin: 30px 0;
+}
+
+.rule-hub {
+  margin: 75px 0 50px;
+}
+
+.h4-uppercase {
   font-size: 16px;
   text-transform: uppercase;
+}
+
+.h4-uppercase-hub {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.vertical-box {
+  width: 30%;
+  padding: 15px 30px 40px;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px lightgrey;
 }
 
 /* check icons */
@@ -281,6 +309,7 @@ nav .logo img {
 
 .integrations h2 {
   font-size: 30px;
+  margin-bottom: 30px;
 }
 
 .crm {
@@ -309,13 +338,13 @@ nav .logo img {
   width: 70%;
 }
 
-.crm-right .h3-uppercase {
+.crm-right .h4-uppercase {
   display: inline-block;
 }
 
 .crm-right p {
   width: 90%;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 .crm-right hr {
@@ -327,7 +356,7 @@ nav .logo img {
 }
 
 .crm-right ul {
-  margin: 20px 0;
+  margin: 30px 0;
   list-style: none;
 }
 
@@ -336,7 +365,19 @@ nav .logo img {
   margin-right: 15px;
 }
 
+.marketing img {
+  width: 100px;
+}
 
+.marketing ul {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 75px;
+}
+
+.sales {
+  margin: 0 5%;
+}
 /* /resources section */
 
 
