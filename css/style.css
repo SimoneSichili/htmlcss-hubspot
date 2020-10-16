@@ -387,5 +387,51 @@ nav .logo img {
 }
 /* /resources section */
 
+/* community section */
+section.community {
+  padding: 50px 0 75px;
+  text-align: center;
+  background-image: linear-gradient(to right, #00A8BA, #00BBA7);
+}
+
+section.community h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  width: 90%;
+  color: white;
+}
+
+section.community p {
+  margin-bottom: 30px;
+  width: 90%;
+  color: white;
+}
+
+.community .box {
+  width: 25%;
+  height: 200px;
+  background: red;
+}
+
+.community .box {
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.community .box:nth-of-type(4) {
+  border-right: 0;
+}
+
+.community .box:nth-of-type(8) {
+  border-right: 0;
+}
+
+.community .box:nth-of-type(n+5) {
+  border-bottom: 0;
+}
+
+
+
+/* /community section */
 
 /* END MAIN */
