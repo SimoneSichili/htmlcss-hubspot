@@ -37,6 +37,10 @@ p {
   line-height: 1.6;
 }
 
+strong {
+  color: #32495B;
+}
+
 
 /* check icons */
 .check-ico li::before {
@@ -444,11 +448,43 @@ section.community p {
   margin-bottom: 30px;
   width: 90%;
 }
-
-
-
-
-
 /* /community section */
+
+/* partners section */
+section.partners {
+  padding: 50px 0 50px;
+  background-color: white;
+}
+
+.partners .companies {
+  height: 500px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.companies-number {
+  width: 20%;
+}
+
+.companies-number h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.companies-logotype {
+  width: 80%;
+  text-align: right;
+}
+
+.companies-logotype img {
+  width: 120px;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+.companies-logotype .logo-row {
+  margin-bottom: 20px;
+}
+/* /partners section */
 
 /* END MAIN */
