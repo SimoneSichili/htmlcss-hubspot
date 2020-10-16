@@ -33,12 +33,36 @@ h1, h2, h3, h4, h5, h6 p {
   color: #32495B;
 }
 
+.h3-lowercase {
+  font-size: 24px;
+}
+
+.h3-uppercase {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/* check icons */
+.check-ico li::before {
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #fd795d;
+  padding-right: 10px;
+}
+/* /check icons */
+
 /* buttons */
 a.btn {
   padding: 10px;
   border: 1px solid #fd795d;
   border-radius: 5px;
   font-size: 12px;
+  text-decoration: none;
+}
+
+a.btn-big {
+  padding: 20px 40px;
 }
 
 a.btn-orange {
@@ -228,13 +252,10 @@ nav .logo img {
   margin-bottom: 40px;
 }
 
-.jumbotron-content [name=signin] {
-  color: white;
-  background-color: #fd795d;
-  border-radius: 5px;
-  border-style: none;
-  padding: 20px;
-  margin-bottom: 40px;
+.jumbotron-content p.small-description {
+  font-size: 14px;
+  margin-top: 40px;
+
 }
 /* /jumbotron */
 
@@ -257,6 +278,65 @@ nav .logo img {
 .integrations img {
   width: 200px;
 }
+
+.integrations h2 {
+  font-size: 30px;
+}
+
+.crm {
+  margin: 50px 0;
+  padding: 50px 75px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px lightgrey;
+}
+
+.crm-left {
+  width: 30%;
+  text-align: center;
+}
+
+.crm-left img {
+  width: 150px;
+}
+
+.crm-left .crm-btn {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.crm-right {
+  width: 70%;
+}
+
+.crm-right .h3-uppercase {
+  display: inline-block;
+}
+
+.crm-right p {
+  width: 90%;
+  margin: 20px 0;
+}
+
+.crm-right hr {
+  display: inline-block;
+  width: 500px;
+  margin-left: 50px;
+  border-top: 2px solid #32495B;
+  vertical-align: middle;
+}
+
+.crm-right ul {
+  margin: 20px 0;
+  list-style: none;
+}
+
+.crm-right ul li{
+  display: inline-block;
+  margin-right: 15px;
+}
+
+
 /* /resources section */
 
 
