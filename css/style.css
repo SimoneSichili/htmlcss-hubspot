@@ -33,6 +33,12 @@ h1, h2, h3, h4, h5, h6 p {
   color: #32495B;
 }
 
+p {
+  line-height: 1.6;
+}
+
+/* section custom class */
+
 .h3-lowercase {
   font-size: 24px;
 }
@@ -44,6 +50,18 @@ h1, h2, h3, h4, h5, h6 p {
 
 .rule-hub {
   margin: 75px 0 50px;
+  border-top: 1px solid #32495B;
+}
+
+
+.hub-img {
+  height: 100px;
+}
+
+.hub-list {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 75px;
 }
 
 .h4-uppercase {
@@ -57,9 +75,6 @@ h1, h2, h3, h4, h5, h6 p {
   margin-bottom: 30px;
 }
 
-p {
-  line-height: 1.6;
-}
 
 .vertical-box {
   width: 30%;
@@ -69,6 +84,7 @@ p {
   border-radius: 5px;
   box-shadow: 2px 2px 5px lightgrey;
 }
+/* /section custom class */
 
 /* check icons */
 .check-ico li::before {
@@ -127,7 +143,7 @@ a.btn-white:hover {
   height: 75px;
   width: 100%;
   background: #f4f9fd;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #32495B;
 }
 
 .header-top-left,
@@ -365,15 +381,6 @@ nav .logo img {
   margin-right: 15px;
 }
 
-.marketing img {
-  width: 100px;
-}
-
-.marketing ul {
-  list-style: none;
-  text-align: left;
-  margin-bottom: 75px;
-}
 
 .sales {
   margin: 0 5%;
