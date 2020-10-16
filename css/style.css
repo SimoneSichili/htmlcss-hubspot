@@ -87,6 +87,10 @@ a.btn-white:hover {
 /* /buttons */
 
 /* section custom class */
+.small-description {
+  font-size: 12px;
+  margin-top: 40px;
+}
 
 .h3-lowercase {
   font-size: 24px;
@@ -338,11 +342,6 @@ nav .logo img {
   margin-bottom: 40px;
 }
 
-.jumbotron-content p.small-description {
-  font-size: 14px;
-  margin-top: 40px;
-
-}
 /* /jumbotron */
 
 /* END HEADER */
@@ -457,34 +456,62 @@ section.partners {
 }
 
 .partners .companies {
-  height: 500px;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 
-.companies-number {
+.companies-left {
   width: 20%;
 }
 
-.companies-number h2 {
+.companies-left h2 {
   font-size: 40px;
   margin-bottom: 30px;
 }
 
-.companies-logotype {
+.companies-right {
   width: 80%;
   text-align: right;
 }
 
-.companies-logotype img {
+.companies-right img {
   width: 120px;
   vertical-align: middle;
   margin-left: 15px;
 }
 
-.companies-logotype .logo-row {
+.companies-right .logo-row {
   margin-bottom: 20px;
+}
+
+.growth {
+  padding-top: 50px;
+}
+
+.growth-left {
+  width: 40%;
+}
+
+.growth-left p {
+  margin: 40px 0 60px;
+}
+
+.growth-left p.small-description {
+  margin-top: 60px;
+}
+
+.growth-right {
+  width: 60%;
+  text-align: right;
+}
+
+.growth-right img {
+  height: 300px;
 }
 /* /partners section */
 
 /* END MAIN */
+
+/* STAR FOOTER */
+
+/* END FOOTER */
