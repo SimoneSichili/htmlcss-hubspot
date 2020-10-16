@@ -37,6 +37,51 @@ p {
   line-height: 1.6;
 }
 
+
+/* check icons */
+.check-ico li::before {
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #fd795d;
+  padding-right: 10px;
+}
+/* /check icons */
+
+/* buttons */
+a.btn {
+  padding: 10px;
+  border: 1px solid #fd795d;
+  border-radius: 5px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+a.btn-big {
+  padding: 20px 40px;
+}
+
+a.btn-orange {
+  color: white;
+  background-color: #fd795d;
+  border-style: none;
+}
+
+a.btn-orange:hover {
+  background-color: rgba(253, 121, 93, 0.5)
+}
+
+a.btn-white {
+  color: #fd795d;
+  background-color: white;
+}
+
+a.btn-white:hover {
+  color: white;
+  background-color: #fd795d;
+}
+/* /buttons */
+
 /* section custom class */
 
 .h3-lowercase {
@@ -84,51 +129,44 @@ p {
   border-radius: 5px;
   box-shadow: 2px 2px 5px lightgrey;
 }
+
+.community .box {
+  width: 25%;
+  padding: 20px 0;
+}
+
+.community .box {
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.community .box:nth-of-type(4) {
+  border-right: 0;
+}
+
+.community .box:nth-of-type(8) {
+  border-right: 0;
+}
+
+.community .box:nth-of-type(n+5) {
+  border-bottom: 0;
+}
+
+.community-logo {
+  height: 30px;
+}
+
+.community-number {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+.community-description {
+  font-size: 12px;
+}
 /* /section custom class */
 
-/* check icons */
-.check-ico li::before {
-  content: "\f058";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  color: #fd795d;
-  padding-right: 10px;
-}
-/* /check icons */
-
-/* buttons */
-a.btn {
-  padding: 10px;
-  border: 1px solid #fd795d;
-  border-radius: 5px;
-  font-size: 12px;
-  text-decoration: none;
-}
-
-a.btn-big {
-  padding: 20px 40px;
-}
-
-a.btn-orange {
-  color: white;
-  background-color: #fd795d;
-  border-style: none;
-}
-
-a.btn-orange:hover {
-  background-color: rgba(253, 121, 93, 0.5)
-}
-
-a.btn-white {
-  color: #fd795d;
-  background-color: white;
-}
-
-a.btn-white:hover {
-  color: white;
-  background-color: #fd795d;
-}
-/* /buttons */
 
 /* ------------ */
 
@@ -164,8 +202,8 @@ a.btn-white:hover {
   padding-right: 20px;
 }
 
-.header-top-right ul li {
-  display: inline-block;
+.header-top-right ul li:last-child {
+  padding-right: 0;
 }
 
 .header-top-left ul li > a {
@@ -392,6 +430,7 @@ section.community {
   padding: 50px 0 75px;
   text-align: center;
   background-image: linear-gradient(to right, #00A8BA, #00BBA7);
+  color: white;
 }
 
 section.community h2 {
@@ -404,31 +443,9 @@ section.community h2 {
 section.community p {
   margin-bottom: 30px;
   width: 90%;
-  color: white;
 }
 
-.community .box {
-  width: 25%;
-  height: 200px;
-  background: red;
-}
 
-.community .box {
-  border-right: 1px solid white;
-  border-bottom: 1px solid white;
-}
-
-.community .box:nth-of-type(4) {
-  border-right: 0;
-}
-
-.community .box:nth-of-type(8) {
-  border-right: 0;
-}
-
-.community .box:nth-of-type(n+5) {
-  border-bottom: 0;
-}
 
 
 
