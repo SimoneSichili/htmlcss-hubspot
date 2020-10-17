@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 p {
 }
 
 p {
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 strong {
@@ -136,16 +136,6 @@ a.btn-grey:hover {
   font-size: 16px;
   text-transform: uppercase;
   margin-bottom: 30px;
-}
-
-
-.vertical-box {
-  width: 30%;
-  padding: 15px 30px 40px;
-  text-align: center;
-  background-color: white;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px lightgrey;
 }
 
 .community .box {
@@ -432,6 +422,18 @@ nav .logo img {
   margin-right: 15px;
 }
 
+.vertical-box {
+  width: 30%;
+  padding: 15px 50px 40px;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px lightgrey;
+}
+
+.vertical-box p {
+  font-size: 15px;
+}
 
 .sales {
   margin: 0 5%;
@@ -546,10 +548,6 @@ footer i:hover {
 
 .link-box {
   width: 25%;
-}
-
-.link-box .link-title {
-  list-style: none;
 }
 
 .link-box h4 {
