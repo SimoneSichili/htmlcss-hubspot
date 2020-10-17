@@ -90,6 +90,11 @@ a.btn-grey {
   background-color: #DADEE0;
   margin-top: 20px;
 }
+
+a.btn-grey:hover {
+  background-color: white;
+}
+
 /* /buttons */
 
 /* section custom class */
@@ -494,7 +499,12 @@ section.partners {
 }
 
 .growth-left {
-  width: 40%;
+  padding-top: 30px;
+  width: 50%;
+}
+
+.growth-left h2 {
+  font-size: 40px;
 }
 
 .growth-left p {
@@ -506,12 +516,12 @@ section.partners {
 }
 
 .growth-right {
-  width: 60%;
+  width: 50%;
   text-align: right;
 }
 
 .growth-right img {
-  height: 300px;
+  height: 400px;
 }
 /* /partners section */
 
@@ -521,7 +531,6 @@ section.partners {
 footer {
   padding: 40px 0 50px;
   background-color: #32495B;
-  height: 800px;
 }
 
 footer a {
@@ -530,8 +539,9 @@ footer a {
   font-size: 14px;
 }
 
-footer a:hover {
-  text-decoration: underline;
+footer a:hover,
+footer i:hover {
+  color: white;
 }
 
 .link-box {
@@ -595,6 +605,7 @@ footer a:hover {
 
 .languages hr {
   margin: 30px 0 40px;
+  border: 1px solid #AAB7C5;
 }
 
 .footer-bottom-l {
