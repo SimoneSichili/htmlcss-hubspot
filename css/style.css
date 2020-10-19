@@ -197,7 +197,7 @@ a.btn-grey:hover {
   height: 75px;
   width: 100%;
   background: #f4f9fd;
-  border-bottom: 1px solid #32495B;
+  border-bottom: 2px solid #32495B;
 }
 
 .header-top-left,
@@ -292,6 +292,7 @@ nav .logo img {
   display: inline-block;
   font-size: 16px;
   padding-left: 20px;
+  color: #32495B;
 }
 
 .navbar ul li:first-child {
@@ -440,7 +441,7 @@ nav .logo img {
 .rule-hub {
   margin: 75px 0 50px;
   border: none;
-  height: 1px;
+  height: 2px;
   background-color: #32495B;
 }
 
