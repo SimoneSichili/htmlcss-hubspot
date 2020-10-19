@@ -193,7 +193,7 @@ a.btn-grey:hover {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 9;
+  z-index: 2;
   height: 75px;
   width: 100%;
   background: #f4f9fd;
@@ -650,6 +650,7 @@ footer i:hover {
   position: fixed;
   right: 20px;
   bottom: 20px;
+  z-index: 2;
 }
 
 .widjet-container {
