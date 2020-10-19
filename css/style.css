@@ -644,3 +644,65 @@ footer i:hover {
   margin-right: 0;
 }
 /* END FOOTER */
+
+/* START WIDJET */
+.widjet {
+  position: fixed;
+  right: 20px;
+  bottom: 90px;
+}
+
+.widjet-container {
+  position: relative;
+  width: 240px;
+  font-size: 14px;
+  background-color: white;
+  padding: 30px 15px 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px lightgrey;
+}
+
+.widjet-container > .fa-times {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #AAB7C5;
+}
+
+.widjet-container .bot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.widjet-container .bot img {
+  width: 50px;
+}
+
+.widjet-ico {
+  position: absolute;
+  bottom: -70px;
+  right: 0;
+}
+
+.widjet-ico-background {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(66, 91, 118);
+}
+
+.widjet-ico-background > .fa-comment-alt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+}
+/* END WIDJET */
