@@ -649,7 +649,7 @@ footer i:hover {
 .widjet {
   position: fixed;
   right: 20px;
-  bottom: 90px;
+  bottom: 20px;
 }
 
 .widjet-container {
@@ -684,12 +684,12 @@ footer i:hover {
 }
 
 .widjet-ico {
-  position: absolute;
-  bottom: -70px;
-  right: 0;
+  width: 240px;
+  margin-top: 30px;
 }
 
 .widjet-ico-background {
+  float: right;
   position: relative;
   width: 50px;
   height: 50px;
