@@ -59,6 +59,7 @@ strong {
 
 /* buttons */
 a.btn {
+  display: inline-block;
   padding: 10px;
   border-radius: 5px;
   font-size: 14px;
@@ -93,7 +94,6 @@ a.btn-white:hover {
 a.btn-grey {
   color: #32495B !important;
   background-color: #DADEE0;
-  margin-top: 20px;
 }
 
 a.btn-grey:hover {
@@ -105,7 +105,7 @@ a.btn-grey:hover {
 /* section custom class */
 .small-description {
   font-size: 12px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .h3-lowercase {
@@ -149,11 +149,7 @@ a.btn-grey:hover {
   border-bottom: 1px solid white;
 }
 
-.community .box:nth-of-type(4) {
-  border-right: 0;
-}
-
-.community .box:nth-of-type(8) {
+.community .box:nth-of-type(4n + 4) {
   border-right: 0;
 }
 
@@ -229,13 +225,14 @@ a.btn-grey:hover {
 }
 
 .header-top-right ul li > a {
+  display: inline;
   list-style: none;
   text-decoration: none;
 }
 
 .header-top-left ul li > a {
   color: #32495B;
-  border-right: 1px solid #32495B;
+  border-right: 2px solid #32495B;
 }
 
 .header-top-left ul li:last-child > a {
@@ -251,18 +248,6 @@ a.btn-grey:hover {
   color: #01b1b1;
 }
 
-.header-top-right [name=login] {
-  color: #fd795d;
-  background-color: white;
-  border-style: none;
-  border: 1px solid #fd795d;
-}
-
-.header-top-right [name=signin] {
-  color: white;
-  background-color: #fd795d;
-  border-style: none;
-}
 /* /header-top */
 
 /* nav */
@@ -493,18 +478,23 @@ section.partners {
 }
 
 .companies-right {
-  width: 80%;
+  width: 70%;
   text-align: right;
+  padding-top: 20px;
 }
 
-.companies-right img {
-  width: 120px;
+.companies-right .logotypes img {
+  width: 140px;
   vertical-align: middle;
-  margin-left: 15px;
+  margin-left: 30px;
 }
 
-.companies-right .logo-row {
-  margin-bottom: 20px;
+.companies-right .logotypes img:nth-child(4n + 1) {
+  margin-left: 0;
+}
+
+.companies-right .logotypes img:nth-child(n + 5) {
+  margin-top: 20px;
 }
 
 .growth {
@@ -523,11 +513,11 @@ section.partners {
 
 .growth-left p.description {
   width: 80%;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .growth-left p.small-description {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .growth-right {
@@ -578,14 +568,14 @@ footer i:hover {
 }
 
 .contacts {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .contacts a.btn-grey {
   font-size: 12px;
 }
 
 .contacts ul {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .contacts li {
